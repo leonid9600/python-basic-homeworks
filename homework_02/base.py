@@ -16,3 +16,9 @@ class Vehicle(ABC):
                 self.started = True
             else:
                 raise LowFuelError
+
+    def move(self, distance):
+        if self.fuel >= (self.fuel_consumption * distance):
+            self.fuel = self.fuel - (self.fuel_consumption * distance)
+        else:
+            raise NotEnoughFuel
