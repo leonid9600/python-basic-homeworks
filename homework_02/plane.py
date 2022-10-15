@@ -23,3 +23,4 @@ class Plane(Vehicle):
         temp = self.cargo
         self.cargo = 0
         return temp
+
