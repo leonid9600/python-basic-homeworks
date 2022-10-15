@@ -14,8 +14,3 @@ class Car(Vehicle):
 
     def set_engine(self, engine):
         self.engine = engine
-
-
-
-
-
