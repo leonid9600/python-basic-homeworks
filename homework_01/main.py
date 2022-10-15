@@ -48,5 +48,3 @@ def filter_numbers(list_of_numbers, filter_type):
         return [number for number in list_of_numbers if number % 2 ==0]
     if filter_type == PRIME:
         return [number for number in list_of_numbers if is_prime(number)]
-
-
